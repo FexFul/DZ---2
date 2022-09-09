@@ -18,9 +18,9 @@ namespace DZ___2
             Int32 userNumberS1 = Convert.ToInt32(Console.ReadLine());
 
             if (userNumberS1 % 2 != 0) 
-                Console.WriteLine("Вы ввели нечётное число."); 
+                Console.WriteLine("Вы ввели нечётное число.\n"); 
             else 
-                Console.WriteLine("Вы ввели чётное число.");
+                Console.WriteLine("Вы ввели чётное число.\n");
 
             #endregion
 
@@ -62,7 +62,7 @@ namespace DZ___2
                 }
                 idCard++;
             }
-            Console.WriteLine($"Вес всех карт: {sumWeightCards}.");
+            Console.WriteLine($"Вес всех карт: {sumWeightCards}.\n");
 
             #endregion
 
@@ -80,8 +80,8 @@ namespace DZ___2
                     break;
                 }
             }
-            if (isNumberPrime) Console.WriteLine("Ваше введённое число простое.");
-            else Console.WriteLine("Ваше введённое число не простое.");
+            if (isNumberPrime) Console.WriteLine("Ваше введённое число простое.\n");
+            else Console.WriteLine("Ваше введённое число не простое.\n");
 
             #endregion
 
@@ -103,7 +103,7 @@ namespace DZ___2
                 }
             };
 
-            Console.WriteLine($"Минимальное число: {minValue}");
+            Console.WriteLine($"Минимальное число: {minValue}.\n");
 
             #endregion
 
